@@ -1,0 +1,383 @@
+/* jOBS - Concept Landing Page Custom Stylesheet */
+/* Rewaant Chhabra 2018 */
+/* Background pattern from Toptal Subtle Patterns */
+
+/* Fonts */
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-SemiBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* =========================================
+                    HOME
+============================================ */
+
+#home {
+  color: #E9F1DF;
+  background: url(../images/main.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
+
+#header {
+  font-family: 'Raleway', sans-serif;
+  padding: 10px 40px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#brand {
+  color: #E9F1DF;
+  font-size: 2.5em;
+  font-style: normal;
+  font-weight: 300;
+  border: 2px solid #E9F1DF;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#brand span {
+  color: #FFCB05;
+}
+
+.navbar {
+  display: flex;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.navbar li {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.navbar li a {
+  color: #FFCB05;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+.navbar li a:hover {
+  color: #E9F1DF;
+}
+
+/* Main Section */
+
+#main {
+  position: relative;
+  overflow: visible;
+  z-index: 10000;
+}
+
+.intro {
+  position: absolute;
+  top: 150px;
+  width: 60%;
+}
+
+.intro h1 {
+  color: #FFCB05;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4.5rem;
+  margin-bottom: 5px;
+}
+
+.intro p {
+  font-size: 18px;
+  color: #E9F1DF;
+  text-align: justify;
+  width: 60%;
+  margin: 0 auto;
+}
+
+form {
+  margin-bottom: 0;
+}
+
+.sign-up-form {
+  position: absolute;
+  top: 30px;
+  right: 150px;
+  width: 30%;
+  border: 3px solid #FFCB05;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 0;
+  text-align: justify;
+  background-color: #000;
+}
+
+.sign-up-form h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  border-bottom: 2px solid #FFCB05;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.form-info {
+  font-weight: bold;
+}
+
+.sign-up-form input {
+  color: #000;
+  background-color: #E9F1DF;
+}
+
+.sign-up-form input:focus {
+  border: 3px solid #FFCB05;
+}
+
+.sign-up-form input,
+button,
+p {
+  margin-top: 5px;
+  border-radius: 0;
+}
+
+.sign-up-form .label-body {
+  margin-top: 1px;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.sign-up-form button {
+  color: #FFCB05;
+  border: 2px solid #FFCB05;
+  font-size: 16px;
+  text-transform: none;
+  border-radius: 10px;
+  height: auto;
+}
+
+.sign-up-form button:hover {
+  color: #E9F1DF;
+  background-color: #FFCB05;
+}
+
+.sign-in {
+  text-align: center;
+}
+
+.sign-in a {
+  color: #FFCB05;
+  text-decoration: none;
+}
+
+/* =========================================
+                TESTIMONIAL
+============================================ */
+
+
+#testimonial {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: url(../images/black-pattern-bg.png);
+}
+
+.tm-overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.tm-card {
+  position: absolute;
+  top: 95px;
+  left: 50px;
+  width: 50%;
+  border: 3px solid #FFCB05;
+  border-radius: 10px;
+}
+
+.tm-card img {
+  width: 80px;
+  border: 3px solid #FFCB05;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 30px 0 0 20px;
+}
+
+
+.tm-card blockquote {
+  color: #E9F1DF;
+  font-size: 18px;
+  margin: 15px;
+}
+
+.tm-card .nine.columns {
+  margin: 0;
+}
+
+.tm-card footer {
+  color: #FFCB05;
+  clear: both;
+  text-align: justify;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tm-card footer cite,
+.tm-card footer span {
+  margin-left: 20px;
+}
+
+/* =========================================
+                HOW IT WORKS
+============================================ */
+
+#how-it-works {
+  color: #FFCB05;
+  background-image: url(../images/black-pattern-bg.png);
+}
+
+.cards {
+  background: #000;
+  border: 3px solid #FFCB05;
+  text-align: center;
+  margin: 10rem 1rem;
+  padding: 20px;
+}
+
+.cards i {
+  color: #FFCB05;
+  margin: 30px 0 20px 0;
+  font-size: 3em;
+}
+
+.cards h3 {
+  color: #E9F1DF;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.cards hr {
+  display: block;
+  margin-top: 20px;
+  border: 1px solid #FFCB05;
+}
+
+.cards p {
+  font-weight: bold;
+  color: #E9F1DF;
+  text-align: justify;
+}
+
+/* =========================================
+                HOW IT WORKS
+============================================ */
+
+#cta {
+  background-image: url(../images/cta.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-weight: bold;
+  color: #FFCB05;
+}
+
+#cta .cta-col{
+  margin: 10rem 0;
+
+}
+
+.cta-col:first-of-type {
+  border-right: 2px solid #FFCB05;
+}
+
+.cta-col h4 {
+  text-transform: uppercase;
+}
+
+.cta-col p {
+  padding: 15px;
+  color: #E9F1DF;
+  font-size: 16px;
+}
+
+.cta-col button {
+  color: #FFCB05;
+  border: 2px solid #FFCB05;
+  font-size: 16px;
+  text-transform: uppercase;
+  height: auto;
+}
+
+.cta-col button:hover {
+  color: #E9F1DF;
+  background-color: #FFCB05;
+}
+
+/* =========================================
+                FOOTER
+============================================ */
+
+#footer {
+  color: #E9F1DF;
+  font-weight: bold;
+  background: url(../images/footer-bg.png);
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav ul li {
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid #E9F1DF;
+}
+
+.footer-nav ul li:last-of-type {
+  border: none;
+}
+
+.footer-nav a {
+  color: #E9F1DF;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: #FFCB05;
+  text-decoration: underline;
+}
+
+#footer p {
+  margin: 0;
+}
