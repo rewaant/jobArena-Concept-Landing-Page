@@ -293,7 +293,7 @@ p {
 }
 
 /* =========================================
-                HOW IT WORKS
+                    CTA
 ============================================ */
 
 #cta {
@@ -381,3 +381,60 @@ p {
 #footer p {
   margin: 0;
 }
+
+
+/* =========================================
+                RESPONSIVE
+============================================ */
+
+/* Smaller than Desktop HD */
+@media (max-width: 1200px) {
+  /* Navigation */
+
+  #header {
+    display: none;
+  }
+
+  .intro {
+    top: 30px;
+    width: 100%;
+  }
+
+  .intro p {
+    margin-top: 10px;
+    width: 90%;
+  }
+
+  .sign-up-form {
+    top: 300px;
+    left: 0;
+    width: 95%;
+    border: none;
+    border-radius: 0px;
+  }
+
+  .sign-up-form h3 {
+    text-align: center;
+  }
+
+  #testimonial {
+    display: none;
+  }
+
+  #how-it-works {
+    margin-top: 200px;
+  }
+
+  .cards {
+    margin: 4rem auto;
+  }
+
+  .cta-col h4{
+    font-size: 4rem;
+  }
+  
+  .cta-col:first-of-type {
+    border-right: none;
+  }
+}
+
