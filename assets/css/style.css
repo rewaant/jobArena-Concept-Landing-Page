@@ -438,3 +438,12 @@ p {
   }
 }
 
+@media (min-height: 820px) {
+
+  .tm-card {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+}
+
