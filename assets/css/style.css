@@ -442,7 +442,13 @@ p {
 
   .tm-card {
     position: relative;
+    left: -15px;
     margin: 0 auto;
+  }
+
+  .tm-card img {
+    width: 100px;
+    margin: 20px 0 0 20px;
   }
   
 }
