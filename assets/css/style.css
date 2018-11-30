@@ -450,6 +450,11 @@ p {
     width: 100px;
     margin: 20px 0 0 20px;
   }
+
+  .intro p {
+    width: 42%;
+    margin-top: 2%;
+  }
   
 }
 
